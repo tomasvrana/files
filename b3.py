@@ -29,7 +29,7 @@ for pin in [BUTTON_EDIT, BUTTON_LEFT, BUTTON_RIGHT, BUTTON_UP, BUTTON_DOWN]:
     GPIO.setup(pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # --- Načtení samplů z USB/SD ---
-def loadSamplesFromSD(path="/volumes/ZVUKY/"):
+def loadSamplesFromSD(path="/media/tom/ZVUKY/"):
     samples = ["Empty"]
     try:
         for fname in os.listdir(path):
