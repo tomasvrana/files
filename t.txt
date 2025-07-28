@@ -1,0 +1,33 @@
+LCD
+
+SDA → GPIO 2 (fyzický pin 3)
+SCL → GPIO 3 (fyzický pin 5)
+VCC → 5V (fyzický pin 2 nebo 4)
+GND → GND (fyzický pin 6, 9, 14, 20, 25, 30, 34, nebo 39)
+
+
+
+
+MCP převodník:
+
+VCC → 3.3V/5V
+GND → GND
+DIN → MOSI (GPIO 10)
+CLK → SCK (GPIO 11)
+CS → GPIO 8 (nebo jiný pin)
+
+
+
+
+
+Edit GPIO17
+← doleva GPIO27
+→ doprava GPIO22
+↑ nahoru GPIO23
+↓ dolu GPIO24
+Next Preset GPIO19
+Reset GPIO26
+
+
+
+gnd dolu edit nahoru pravo levo next reset
